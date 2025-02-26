@@ -14,7 +14,6 @@ Submission deadline: Tuesday, 25/02/2025 11:59 PM
 Submission guidelines:
 
 Code should be added to a GitHub repository, and the repository details should be shared in the pdf.
-
 Submit the PDF showing screenshots of all steps involved in the following code.
 
 Note: By submitting this assignment solution you confirm to follow the IITGN's honor code. We shall strictly penalize the submissions containing plagiarized text/code.
@@ -72,7 +71,9 @@ Confusion matrix visualization.
 Training and validation loss curves.
 
 
+
 Section 2: Hyperparameters
+
 This section aims to perform a hyperparameter search to improve the performance of a custom model that distinguishes between any three classes.
 
 Task 1: Hyperparameter Optimization (20%)
@@ -81,6 +82,7 @@ Train the model on the batch size of [2 & 4], learning rate [1e-3 and 1e-5], and
 Train the model and measure the accuracy and F1 over the test set. Plot the confusion matrix over the test-set predictions.
 Plot using the truth labels and predicted labels in matplotlib. 
 Show the inputs, prediction, and truth values for five samples from the test set.
+
 Task 2: Automated Hyperparameter Search (20%)
 Use the Grid Search over the parameters defined above, Random Search, and Hyperband + Bayesian Optimization hyperparameter to search for the hyperparameters defined in Task 1.
 Create a table (Each row with a configuration and column with Accuracy and F1) for Grid, Random, Hyperband, and Bayesian search and compare their accuracy and F1. 
