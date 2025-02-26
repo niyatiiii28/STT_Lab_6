@@ -1,0 +1,16 @@
+Method,Accuracy,F1-Score
+Random Search,0.866667,0.866667
+Bayesian Optimization,0.866667,0.866667
+"GBM (lr=0.001, rounds=1)",0.866667,0.866667
+"GBM (lr=0.001, rounds=3)",0.866667,0.866667
+"GBM (lr=0.001, rounds=5)",0.866667,0.866667
+"GBM (lr=1e-05, rounds=1)",0.866667,0.866667
+"GBM (lr=1e-05, rounds=3)",0.866667,0.866667
+"GBM (lr=1e-05, rounds=5)",0.866667,0.866667
+"CAT (lr=0.001, iterations=1)",1.0,1.0
+"CAT (lr=0.001, iterations=3)",0.966667,0.966583
+"CAT (lr=0.001, iterations=5)",0.966667,0.966583
+"CAT (lr=1e-05, iterations=1)",1.0,1.0
+"CAT (lr=1e-05, iterations=3)",0.966667,0.966583
+"CAT (lr=1e-05, iterations=5)",0.966667,0.966583
+Hyperband + Bayesian Opt.,0.9333333333333333,0.9326599326599326
